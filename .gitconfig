@@ -1,0 +1,15 @@
+[user]
+    name = Vincent Hourdel
+    email = vincent.hourdel@datadoghq.com
+    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGMdSBv+ugROkWOh60QTFsbGqqlDaI4SZez1WtqFmDDo
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+
+
+[url "git@github.com:DataDog/"]
+    insteadOf = https://github.com/DataDog/
+
+[core]
+    hooksPath = /home/bits/.global_hooks
